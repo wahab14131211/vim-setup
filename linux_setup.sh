@@ -1,4 +1,3 @@
-
 #! /usr/bin/bash
 if [[ ! -d ~/vimtmp ]]; then
     echo "The ~/vimtmp directory does not exist, creating it and setting 700 permissions\n"
