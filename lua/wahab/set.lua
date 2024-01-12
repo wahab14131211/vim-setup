@@ -11,11 +11,11 @@ vim.opt.smartindent = true
 vim.opt.wrap = false
 
 vim.opt.swapfile = false
-vim.opt.undodir = os.getenv("HOME") .. "/nvimtmp/undodir"
+vim.opt.undodir = os.getenv("HOME") .. "/vimtmp/nvim/undodir"
 vim.opt.undofile = true
 -- Backup files
 -- Double slash to build file name from the complete path to the file with all path separators changed to percent '%' signs
-vim.opt.backupdir = os.getenv("HOME") .. "/nvimtmp/backups//"
+vim.opt.backupdir = os.getenv("HOME") .. "/vimtmp/nvim/backups//"
 vim.opt.backup = true
 
 -- Add timestamp as extension for backup files
