@@ -1,2 +1,9 @@
-lazy-lock.json
-lazy
+#ignore everything
+*
+
+#except the following directories
+!.gitignore
+!linux_setup.sh
+!nvim/
+nvim/lazy-lock.json
+nvim/lazy
