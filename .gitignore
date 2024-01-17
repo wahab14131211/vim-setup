@@ -4,6 +4,8 @@
 #except the following directories
 !.gitignore
 !linux_setup.sh
-!nvim/
+!nvim*
+!vim*
 nvim/lazy-lock.json
 nvim/lazy
+vim/plugged
