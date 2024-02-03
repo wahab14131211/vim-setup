@@ -10,12 +10,13 @@ vim.keymap.set("n", "J", "mzJ`z") --append line below to current line with space
 vim.keymap.set("x", "<leader>p", [["_dP]]) --paste over highlight without adding highlight to buffer using space+p
 
 -- next greatest remap ever : asbjornHaland -- No longer needed due to clipboard setting in set.lua
--- vim.keymap.set({"n", "v"}, "<leader>y", [["+y]]) --use space+y to yank something into + register (i.e. system clipboard)
--- vim.keymap.set("n", "<leader>Y", [["+Y]]) --use space+y to yank something into + register (i.e. system clipboard)
+vim.keymap.set({"n", "v"}, "<leader>y", [["+y]]) --use space+y to yank something into + register (i.e. system clipboard)
+vim.keymap.set("n", "<leader>Y", [["+Y]]) --use space+y to yank something into + register (i.e. system clipboard)
 
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]]) --delete highlight without adding to the register using space+d
 
 vim.keymap.set("i", "<C-c>", "<Esc>") --remap Ctrl+c to Esc to allow visual block test insertion with Ctrl+c
+vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
 
 vim.keymap.set("n", "Q", "<nop>") --apparently Q is not a useful command, so remap it to nothing
 
